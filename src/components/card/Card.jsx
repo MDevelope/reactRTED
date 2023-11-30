@@ -1,6 +1,6 @@
-import "./card.css"
-import ButtonActive from "../widgets/Button"
-
+import "./card.css";
+import ButtonActive from "../widgets/Button";
+import InputCustom from "../input/Input";
 
 
 function Card () {
@@ -13,13 +13,12 @@ function Card () {
                         <div>
                              <p>$</p>
                         </div>
-                        <input type="number" placeholder="142.55"  />
+                        <InputCustom type="number" placeholder="142.55" />
                     </div>
                     <ButtonActive />
                     <h2>Number of People</h2>
                     <div className="details-icon3">
-                        
-                        <input type="number" placeholder="5" />
+                        <InputCustom type="number" placeholder="5" />
                     </div>
                 </div>
                 <div className="details">
