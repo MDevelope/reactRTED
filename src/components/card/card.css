@@ -1,11 +1,9 @@
 .card {
     justify-items: center;
-    margin-bottom: 10px;
     box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.3);
     background: #FFFFFF;
     border-radius: 8px;
-    width: 920px;
-    height: 400px;
+    margin: 10px 10%;
 }
 
 .card .card-details {
@@ -127,3 +125,35 @@
     font-size: 20px;
 }
 
+
+@media (max-width: 1142px) {
+    .card .card-details .details .details-icon2 .btn {
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .card .card-details .details .details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card .card-details h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 952px) {
+    .card .card-details .details .details-icon2 .btn {
+        width: 80px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .card .card-details .details .details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card .card-details h2 {
+        font-size: 20px;
+    }
+}
