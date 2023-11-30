@@ -1,0 +1,129 @@
+.card {
+    justify-items: center;
+    margin-bottom: 10px;
+    box-shadow: .4rem .4rem .4rem rgba(0, 0, 0, 0.3);
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 920px;
+    height: 400px;
+}
+
+.card .card-details {
+    position: relative;
+    padding: 20px 10px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card .card-details .details {
+    background: #FFFFFF;
+    padding: 0 20px;
+}
+
+.card .card-details .details .details-icon {
+    justify-content: space-between;
+    background: #FFFFFF;
+    align-items: center;
+    display: flex;
+}
+
+.card .card-details .details .details-icon2 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card .card-details .details .details-icon2 .btn {
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    margin: 7px 3px;
+    border-radius: 8px;
+    border: none;
+    background: #00474B;
+    color: #FFFFFF;
+}
+
+.card .card-details .details .details-icon3 input {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card .card-details .details .details-icon2 .btn:nth-child(6) {
+    background: #F3F9FA;
+    color: #547878;
+}
+
+.card .card-details .details .details-icon2 .btn.active {
+    background: #26C2AE;
+    color: #00474B;
+}
+
+.card .card-details .details:nth-child(2) {
+    background: #00474B;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.card .card-details .details:nth-child(2) .culc {
+    margin: 50px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-details .details:nth-child(2) .culc .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-details .details:nth-child(2) .culc .row:nth-child(2) {
+    margin: 40px 0;
+}
+
+.card .card-details .details:nth-child(2) .culc .row .amout p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.card .card-details .details:nth-child(2) .culc .row .amout p:nth-child(2) {
+    font-size: 13px;
+    color: #7F9D9F;
+}
+
+.card .card-details .details:nth-child(2) .culc .row h2 {
+    font-size: 40px;
+    color: #26C2AE;
+    background: transparent;
+    font-weight: 700;
+}
+
+.card .card-details .details:nth-child(2) .culc button[type="submit"] {
+    background: #26C2AE;
+    color: #00474B;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+}
+
+.card .card-details h2 {
+    color: #5E7A7D;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: .05em;
+}
+
+.card .card-details input {
+    width: 90%;
+    height: 50px;
+    background: #F3F9FA;
+    border: none;
+    text-align: end;
+    padding: 0 10px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
